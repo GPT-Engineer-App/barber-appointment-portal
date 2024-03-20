@@ -9,14 +9,8 @@ const Navigation = () => {
         <Link as={RouterLink} to="/">
           Home
         </Link>
-        <Link as={RouterLink} to="/appointments">
-          Appointments
-        </Link>
-        <Link as={RouterLink} to="/services">
-          Services
-        </Link>
-        <Link as={RouterLink} to="/staff">
-          Staff
+        <Link as={RouterLink} to="/booking">
+          Booking
         </Link>
       </HStack>
     </Box>
