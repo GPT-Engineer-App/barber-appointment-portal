@@ -10,14 +10,8 @@ const Navigation = () => {
           <Image src="logo.png" alt="Overtime Barber Studios" height="50px" />
         </Link>
         <HStack spacing={8}>
-          <Link as={RouterLink} to="/locations">
-            Locations
-          </Link>
           <Link as={RouterLink} to="/booking">
             Book Now
-          </Link>
-          <Link as={RouterLink} to="/franchise">
-            Franchise
           </Link>
         </HStack>
       </Flex>

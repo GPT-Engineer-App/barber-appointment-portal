@@ -1,44 +1,29 @@
 import React from "react";
-import { Box, Button, Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 
 const Index = () => {
   return (
-    <Box>
-      <Flex minHeight="70vh" align="center" justify="center" direction="column" background="url('hero-bg.jpg') center/cover no-repeat">
-        <Heading as="h1" size="2xl" mb={4} color="white" textAlign="center">
-          Elevate Your Grooming Experience
+    <Box maxWidth="800px" margin="auto" mt={12}>
+      <VStack spacing={8} align="stretch">
+        <Heading as="h1" size="2xl" textAlign="center">
+          Welcome to Overtime Barber Studios
         </Heading>
-        <Text fontSize="xl" mb={8} color="white" textAlign="center">
-          Discover the ultimate barbershop experience at Overtime Barber Studios.
-        </Text>
-        <Button as={Link} to="/booking" colorScheme="blue" size="lg">
-          Book Now
-        </Button>
-      </Flex>
-
-      <VStack spacing={16} my={20} align="center">
-        <Heading as="h2" size="xl">
-          Featured Services
-        </Heading>
-        <Flex justify="space-around" wrap="wrap">
-          {}
-        </Flex>
-
-        <Heading as="h2" size="xl">
-          Locations
-        </Heading>
-        <Flex justify="space-around" wrap="wrap">
-          {}
-        </Flex>
-
-        <Box textAlign="center">
-          <Heading as="h2" size="xl" mb={4}>
-            Ready for a fresh cut?
+        <Text fontSize="xl">Overtime Barber Studios is your premier destination for top-notch grooming services. Our skilled barbers are dedicated to providing you with the best haircuts, beard trims, and more in a welcoming and relaxing atmosphere.</Text>
+        <Box>
+          <Heading as="h2" size="xl">
+            Location &amp; Contact
           </Heading>
-          <Button as={Link} to="/booking" colorScheme="blue" size="lg">
-            Book an Appointment
-          </Button>
+          <Text>
+            OverTime Barber Studios
+            <br />
+            4507 50th St
+            <br />
+            Lubbock, Texas 79414
+            <br />
+            (325) 480-6500
+            <br />
+            overtbs@gmail.com
+          </Text>
         </Box>
       </VStack>
     </Box>
