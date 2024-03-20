@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <Box>
-      <Flex minHeight="100vh" align="center" justify="center" direction="column" background="url('hero-bg.jpg') center/cover no-repeat">
-        <Heading as="h1" size="3xl" mb={6} color="white" textAlign="center">
+      <Flex minHeight="70vh" align="center" justify="center" direction="column" background="url('hero-bg.jpg') center/cover no-repeat">
+        <Heading as="h1" size="2xl" mb={4} color="white" textAlign="center">
           Elevate Your Grooming Experience
         </Heading>
-        <Text fontSize="2xl" mb={10} color="white" textAlign="center" maxWidth="800px">
+        <Text fontSize="xl" mb={8} color="white" textAlign="center">
           Discover the ultimate barbershop experience at Overtime Barber Studios.
         </Text>
         <Button as={Link} to="/booking" colorScheme="blue" size="lg">
